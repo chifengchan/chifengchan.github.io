@@ -1,0 +1,8 @@
+# Claude Code 本地配置
+.claude/
+
+# VS Code 本地配置
+.vscode/
+
+# Zensical 编译产物
+site/
