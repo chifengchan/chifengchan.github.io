@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "chifeng chan Documentation"
+site_name = "ChiFeng Chan's Blog"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "记录日常以及自创视频教程"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -34,7 +34,7 @@ site_url = "https://chifengchan.github.io/"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2026 The authors
+Copyright &copy; 2026 ChiFeng Chan
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -48,6 +48,21 @@ Copyright &copy; 2026 The authors
 #   { "Get started" = "index.md" },
 #   { "Markdown in 5min" = "markdown.md" },
 # ]
+
+# 网站的导航菜单结构，支持多层嵌套
+nav = [
+  { "主页" = "index.md" },
+  { "OPNsense" = [
+    "opnsense/index.md"
+  ]},
+  { "Bilibili" = [
+    "bilibili/index.md"
+  ]},
+  { "关于" = [
+    { "初始化index.md" = "init/init.md" },
+    { "初始化markdown.md" = "init/markdown.md" },
+  ]},
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -67,6 +82,22 @@ Copyright &copy; 2026 The authors
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
 
+# 文档目录
+docs_dir = "docs"
+# 生成的网站目录
+site_dir = "site"
+# 使用目录形式的URL (例如: /page/ 而不是 /page.html)
+use_directory_urls = true
+
+# ----------------------------------------------------------------------------
+# 仓库配置
+# ----------------------------------------------------------------------------
+repo_url = "https://github.com/chifengchan/chifengchan.github.io"
+# 右上角的名字
+repo_name = "chifengchan"
+# 编辑按钮跳转的链接
+edit_uri = "edit/main/docs"
+
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
@@ -74,6 +105,8 @@ Copyright &copy; 2026 The authors
 
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
+# Zensical 特有：使用 modern 主题变体
+variant = "modern"
 
 # Zensical allows you to override specific blocks, partials, or whole
 # templates as well as to define your own templates. To do this, uncomment
@@ -108,7 +141,8 @@ Copyright &copy; 2026 The authors
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+# language = "en"
+language = "zh"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
@@ -215,11 +249,13 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    # 一级导航显示为顶部Tab
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
     # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
+    # 顶部导航栏始终可见
     #"navigation.tabs.sticky",
 
     # A back-to-top button can be shown when the user, after scrolling down,
