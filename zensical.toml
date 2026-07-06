@@ -54,12 +54,16 @@ nav = [
   { "主页" = "index.md" },
   {
     "智能家居" = [
-      {"智能家居 - 首页" = "iot/index.md",},
-      {"有人304获取正泰电表数据并上传有人云" = "iot/usr-cloud/index.md",}
+      {"智能家居 - 首页" = "iot/index.md"},
+      {"有人304获取正泰电表数据并上传有人云" = "iot/usr-cloud/index.md"}
     ]
   },
   { "OPNsense" = [
-    "opnsense/index.md"
+    {"OPNsense - 首页" = "opnsense/index.md"},
+    {"J4125 安装 OPNsense" = "opnsense/opnsense-install/index.md"},
+    {"J4125 - OPNsense 简单使用" = "opnsense/opnsense-init-work/index.md"},
+    {"J4125 - OPNsense 系统配置备份及恢复" = "opnsense/opnsense-diag-backup/index.md"},
+    {"J4125 - OPNsense 设置管理口" = "opnsense/opnsense-mgmt/index.md"},
   ]},
   { "Bilibili" = [
     "bilibili/index.md"
