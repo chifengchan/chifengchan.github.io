@@ -32,6 +32,8 @@
 
 ![opnsense-install-03.png](assets/opnsense-install-03.png)
 
+### 安装 OPNsense
+
 >  选择对应的 OPNsense 的镜像文件，默认账号：`installer`，默认密码：`opnsense`
 
 ![opnsense-install-04.png](assets/opnsense-install-04.png)
