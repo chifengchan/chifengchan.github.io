@@ -58,15 +58,18 @@ nav = [
       {"有人304获取正泰电表数据并上传有人云" = "iot/usr-cloud/index.md"}
     ]
   },
+  { "OpenWrt" = [
+    {"OpenWrt - 首页" = "openwrt/index.md"},
+    {"iStoreOS 旁路由" = "openwrt/01-side-route/index.md"},
+    {"iStoreOS 旁路由 OpenClash" = "openwrt/02-side-route-openclash/index.md"},
+    {"Radxa E20C 升级 LEDE（含编译过程）" = "openwrt/99-lede/index.md"},
+  ]},
   { "OPNsense" = [
     {"OPNsense - 首页" = "opnsense/index.md"},
     {"J4125 安装 OPNsense" = "opnsense/opnsense-install/index.md"},
     {"J4125 - OPNsense 简单使用" = "opnsense/opnsense-init-work/index.md"},
     {"J4125 - OPNsense 系统配置备份及恢复" = "opnsense/opnsense-diag-backup/index.md"},
     {"J4125 - OPNsense 设置管理口" = "opnsense/opnsense-mgmt/index.md"},
-  ]},
-  { "Bilibili" = [
-    "bilibili/index.md"
   ]},
   { "关于" = [
     { "初始化index.md" = "init/init.md" },
