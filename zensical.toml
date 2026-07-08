@@ -62,22 +62,29 @@ nav = [
     {"OpenWrt - 首页" = "openwrt/index.md"},
     {"iStoreOS 旁路由" = "openwrt/01-side-route/index.md"},
     {"iStoreOS 旁路由 OpenClash" = "openwrt/02-side-route-openclash/index.md"},
-    {"Radxa E20C 升级 LEDE（含编译过程）" = "openwrt/99-lede/index.md"},
+    {"Radxa E20C 安装 OpenWrt" = "openwrt/03-openwrt/index.md"},
+    {"Radxa E20C 安装 LEDE（含编译过程）" = "openwrt/04-lede/index.md"},
+    {"Radxa E20C 安装 LEDE（含编译过程）（含所有主题）（含OpenCl**h）" = "openwrt/05-lede-ext/index.md"},
+    {"Radxa E20C 升级 LEDE（含编译过程）" = "openwrt/06-lede-upgrade/index.md"},
   ]},
   { "OPNsense" = [
     {"OPNsense - 首页" = "opnsense/index.md"},
-    {"J4125 安装 OPNsense" = "opnsense/opnsense-install/index.md"},
-    {"J4125 - OPNsense 简单使用" = "opnsense/opnsense-init-work/index.md"},
-    {"J4125 - OPNsense 系统配置备份及恢复" = "opnsense/opnsense-diag-backup/index.md"},
-    {"J4125 - OPNsense 设置管理口" = "opnsense/opnsense-mgmt/index.md"},
+    {"J4125 安装 OPNsense" = "opnsense/01-opnsense-install/index.md"},
+    {"J4125 - OPNsense 简单使用" = "opnsense/02-opnsense-init-work/index.md"},
+    {"J4125 - OPNsense 系统配置备份及恢复" = "opnsense/03-opnsense-diag-backup/index.md"},
+    {"J4125 - OPNsense 设置管理口" = "opnsense/04-opnsense-mgmt/index.md"},
   ]},
   { "Linux" = [
     {"Linux - 首页" = "linux/index.md"},
     {"【VMware Workstation】Rocky Linux 10 桌面版安装" = "linux/01-rockylinux10-x86-64-desktop/index.md"},
+    {"【VMware Workstation】Debian 13 桌面版安装" = "linux/02-debian13-x86-64-desktop/index.md"},
+    {"【VMware Workstation】Debian 13 安装 sing-box（Clash配置转换sing-box配置）" = "linux/03-debian13-clash-config-to-sing-box-config/index.md"},
   ]},
-  { "关于" = [
-    { "初始化index.md" = "init/init.md" },
-    { "初始化markdown.md" = "init/markdown.md" },
+  { "其他" = [
+    { "其他 - 首页" = "other/index.md" },
+    { "Radxa E20C 安装 飞牛 fnOS" = "other/01-lede-fnos/index.md" },
+    { "初始化index.md" = "other/init.md" },
+    { "初始化markdown.md" = "other/markdown.md" },
   ]},
 ]
 

@@ -8,25 +8,25 @@
 
 下载 `Rocky-10.0-x86_64-dvd1.iso` 系统镜像
 
-!!! info
-   下载列表页面：https://rockylinux.org/zh-CN/download
+!!! info 
+    下载列表页面：https://rockylinux.org/zh-CN/download
 
-   文件名称：`Rocky-10.0-x86_64-dvd1.iso`
+    文件名称：`Rocky-10.0-x86_64-dvd1.iso`
 
-   MD5：`2AE0447BE1353D702B3809C9AB91A17E`
+    MD5：`2AE0447BE1353D702B3809C9AB91A17E`
 
-   下载链接：https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10.0-x86_64-dvd1.iso
+    下载链接：https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10.0-x86_64-dvd1.iso
 
 下载 `CHECKSUM` 文件，用于校对系统镜像是否篡改（省略检查过程）
 
 !!! info
-   下载列表页面：https://rockylinux.org/zh-CN/download
+    下载列表页面：https://rockylinux.org/zh-CN/download
 
-   文件名称：`CHECKSUM`
+    文件名称：`CHECKSUM`
 
-   MD5：`52D159B088799A54A389F9914FEDD2A6`
+    MD5：`52D159B088799A54A389F9914FEDD2A6`
 
-   下载链接：https://download.rockylinux.org/pub/rocky/10/isos/x86_64/CHECKSUM
+    下载链接：https://download.rockylinux.org/pub/rocky/10/isos/x86_64/CHECKSUM
 
 将上述 2 个文件移动至 `D:\VMware-RockyLinux\01-iso` 目录中
 

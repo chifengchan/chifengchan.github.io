@@ -1,4 +1,4 @@
-# Radxa E20C 升级 LEDE（含编译过程）
+# Radxa E20C 安装 LEDE（含编译过程）
 
 ## 拍摄快照
 
@@ -246,7 +246,10 @@ make V=s -j$(nproc)
 
 !!! info "参考链接"
     1. [Lean 的 LEDE 源码仓库](https://github.com/coolsnowwolf/lede){target=blank}
+
     2. [『299』 傻瓜式编译OpenWrt固件全流程丨Ubuntu下基于Lean源码编译融合各种插件](https://www.bilibili.com/video/BV1uh411B78b)
+
     3. [Lean/大雕/冷雪狼/乐得 精彩演讲纪念版---2025中关村科学城工业软件创新暨开源峰会](https://www.bilibili.com/video/BV1NiLkzXEyq/?vd_source=1c13e6cbcac25df6bc6e36cf7314fde7){target=blank}
+
     4. [清华大学开源软件镜像站 - Debian 软件源](https://mirrors.tuna.tsinghua.edu.cn/help/debian/){target=blank}
 

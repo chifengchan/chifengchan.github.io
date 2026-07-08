@@ -2,6 +2,6 @@
 icon: lucide/rocket
 ---
 
-# Get started
+# 首页
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+欢迎访问！

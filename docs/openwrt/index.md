@@ -1,1 +1,1 @@
-# this is OpenWrt Page
+# OpenWrt
