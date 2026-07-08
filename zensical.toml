@@ -64,7 +64,7 @@ nav = [
     {"iStoreOS 旁路由 OpenClash" = "openwrt/02-side-route-openclash/index.md"},
     {"Radxa E20C 安装 OpenWrt" = "openwrt/03-openwrt/index.md"},
     {"Radxa E20C 安装 LEDE（含编译过程）" = "openwrt/04-lede/index.md"},
-    {"Radxa E20C 安装 LEDE（含编译过程）（含所有主题）（含OpenCl**h）" = "openwrt/05-lede-ext/index.md"},
+    {"Radxa E20C 安装 LEDE（含编译过程）（含所有主题）（含OpenClash）" = "openwrt/05-lede-ext/index.md"},
     {"Radxa E20C 升级 LEDE（含编译过程）" = "openwrt/06-lede-upgrade/index.md"},
   ]},
   { "OPNsense" = [

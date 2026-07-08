@@ -11,7 +11,7 @@
 
 !!! info "参考链接"
     [E20C->上手指南->安装系统->安装系统到EMMC->Windows主机](https://docs.radxa.com/e/e20c/getting-started/install-os/maskrom/windows){target=blank}
-{.is-info}
+
 
 1. 创建目录 `01-DriverAssistant v5.0`， 下载 `DriverAssistant v5.0` ，并解压和安装
 
@@ -51,16 +51,16 @@
 
 5. 使 `E20C` 进入 `Maskrom 模式`
 
-	5.1. 打开 `02-RKDevTool v2.96\RKDevTool_Release_v2.96_zh\RKDevTool_Release_v2.96\RKDevTool.exe`
-	5.2. `E20C 的 DEBUG 口` --- 使用数据线连接 --- `Windows 主机`
-	5.3. 用 `卡针` 长按 `MASKROM` 按键
-	5.4. 给 `E20C` 的 `POWER` 口上电
-	5.5. 在 `瑞芯微开发工具 v2.96` 软件中显示 `发现一个MASKROM设备` 提示即可松开 `MASKROM` 按键的按压
-	5.6. 设置 `Loder` 的路径
-	5.7. 设置 `Image` 的存储为 `EMMC`
-	5.8. 设置 `Image` 的路径
-	5.9. 勾选 `强制按地址写`
-	5.10. 点击 `执行`，等待完成即可拔出 `E20C` 的 `DEBUG` 口上的数据线
+	- 打开 `02-RKDevTool v2.96\RKDevTool_Release_v2.96_zh\RKDevTool_Release_v2.96\RKDevTool.exe`
+	- `E20C 的 DEBUG 口` --- 使用数据线连接 --- `Windows 主机`
+	- 用 `卡针` 长按 `MASKROM` 按键
+	- 给 `E20C` 的 `POWER` 口上电
+	- 在 `瑞芯微开发工具 v2.96` 软件中显示 `发现一个MASKROM设备` 提示即可松开 `MASKROM` 按键的按压
+	- 设置 `Loder` 的路径
+	- 设置 `Image` 的存储为 `EMMC`
+	- 设置 `Image` 的路径
+	- 勾选 `强制按地址写`
+	- 点击 `执行`，等待完成即可拔出 `E20C` 的 `DEBUG` 口上的数据线
 
 # 访问 OpenWrt 的管理后台
 

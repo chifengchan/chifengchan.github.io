@@ -1,4 +1,4 @@
-# Radxa E20C 安装 LEDE（含编译过程）（含所有主题）（含OpenCl**h）
+# Radxa E20C 安装 LEDE（含编译过程）（含所有主题）（含OpenClash）
 
 ## 操作过程
 
