@@ -1,0 +1,92 @@
+{
+  "datas": [
+    {
+      "key": 1,
+      "name": "u",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8193,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 2,
+      "name": "i",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8195,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 3,
+      "name": "p",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8197,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 4,
+      "name": "q",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8199,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 5,
+      "name": "s",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8201,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 6,
+      "name": "pf",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8203,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 7,
+      "name": "freq",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 8207,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    },
+    {
+      "key": 8,
+      "name": "ep",
+      "sadd": 1,
+      "rtype": 3,
+      "radd": 16385,
+      "dtype": 7,
+      "magn": "1",
+      "report": 0,
+      "ampl": "0"
+    }
+  ]
+}
