@@ -242,7 +242,7 @@ EMQX 后台管理，如下图所示：
 
 ### 使用 ESP32-C6 + LED 屏幕 显示电表信息
 
-![02-usr-mqtt-22.jpg](assets/02-usr-mqtt-22.jpg)
+![02-usr-mqtt-22.png](assets/02-usr-mqtt-22.png)
 
 ### 导入 `点表参数`
 
