@@ -56,7 +56,8 @@ nav = [
     "智能家居" = [
       {"智能家居 - 首页" = "iot/index.md"},
       {"有人304获取正泰电表数据并上传有人云" = "iot/01-usr-cloud/index.md"},
-      {"有人304获取正泰电表数据并本地MQTT采集" = "iot/02-usr-mqtt/index.md"}
+      {"有人304获取正泰电表数据并本地MQTT采集" = "iot/02-usr-mqtt/index.md"},
+      {"有人304通过MQTT获取正泰电表数据并在Home Assistant中采集和可视化" = "iot/03-usr-homeassistant/index.md"},
     ]
   },
   { "OpenWrt" = [
