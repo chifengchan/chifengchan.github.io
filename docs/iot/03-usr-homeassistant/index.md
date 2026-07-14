@@ -508,6 +508,38 @@ mqtt:
 
 ## 设置能源
 
+点击 `能源` -> 点击 `添加电网连接` 
+
+![03-usr-homeassistant-67.png](assets/03-usr-homeassistant-67.png)
+
+选择 `电网输入的能源`、`成本跟踪` -> 点击 `保存`
+
+![03-usr-homeassistant-68.png](assets/03-usr-homeassistant-68.png)
+
+点击 `下一步`
+
+![03-usr-homeassistant-69.png](assets/03-usr-homeassistant-69.png)
+
+点击 `下一步`
+
+![03-usr-homeassistant-70.png](assets/03-usr-homeassistant-70.png)
+
+点击 `下一步`
+
+![03-usr-homeassistant-71.png](assets/03-usr-homeassistant-71.png)
+
+点击 `下一步`
+
+![03-usr-homeassistant-72.png](assets/03-usr-homeassistant-72.png)
+
+点击 `看看我的能源仪表盘`
+
+![03-usr-homeassistant-73.png](assets/03-usr-homeassistant-73.png)
+
+查看能源仪表盘
+
+![03-usr-homeassistant-74.png](assets/03-usr-homeassistant-74.png)
+
 !!! info "参考链接"
     1. [Platform installation](https://www.home-assistant.io/installation/linux/){target=blank}
     2. [Blueprint Studio for Home Assistant 🚀](https://github.com/ha-china/blueprint-studio){target=blank}
