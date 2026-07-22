@@ -36,13 +36,20 @@ services:
     privileged: true
     network_mode: host
     environment:
-      # 使用国内镜像源
+      # PyPI镜像
       - PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
       - PIP_TRUSTED_HOST=pypi.tuna.tsinghua.edu.cn
-      - PIP_DEFAULT_TIMEOUT=100
+      - PIP_DEFAULT_TIMEOUT=600
+      
+      # ESP-IDF下载优化
       - IDF_GITHUB_ASSETS=dl.espressif.com/github_assets
-      # 设置时区
+      - ESPHOME_USE_SUBPROCESS=1
+      - ESPHOME_SKIP_VERSION_CHECK=1
+
+      # 时区
       - TZ=Asia/Shanghai
+
+      # 登录账号密码
       # - USERNAME=test
       # - PASSWORD=ChangeMe
 ```
