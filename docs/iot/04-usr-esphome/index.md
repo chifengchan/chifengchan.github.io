@@ -50,8 +50,8 @@ services:
       - TZ=Asia/Shanghai
 
       # 登录账号密码
-      # - USERNAME=test
-      # - PASSWORD=ChangeMe
+      # - ESPHOME_USERNAME=test
+      # - ESPHOME_PASSWORD=ChangeMe
 ```
 
 启动服务
