@@ -164,3 +164,12 @@ porschan@lab10:~$
 宿主机连接 ubuntu 成功界面
 
 ![05-ubuntu2604-desktop-quickstart-10.png](assets/05-ubuntu2604-desktop-quickstart-10.png)
+
+## 拍摄快照
+
+点击 `拍摄快照`，编辑快照信息，并点击 `拍摄快照`
+
+- 名称：`完成《Ubuntu 26.04 桌面版一些配置》`
+- 描述：无
+
+![05-ubuntu2604-desktop-quickstart-11.png](assets/05-ubuntu2604-desktop-quickstart-11.png)
