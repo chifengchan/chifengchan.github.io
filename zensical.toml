@@ -83,6 +83,7 @@ nav = [
     {"【VMware Workstation】Debian 13 桌面版安装" = "linux/02-debian13-x86-64-desktop/index.md"},
     {"【VMware Workstation】Debian 13 安装 sing-box（Clash配置转换sing-box配置）" = "linux/03-debian13-clash-config-to-sing-box-config/index.md"},
     {"【VMware Workstation】Ubuntu 26.04 桌面版安装" = "linux/04-ubuntu2604-amd64-desktop/index.md"},
+    {"Ubuntu 26.04 桌面版一些配置" = "linux/05-ubuntu2604-desktop-quickstart/index.md"},
   ]},
   { "其他" = [
     { "其他 - 首页" = "other/index.md" },
