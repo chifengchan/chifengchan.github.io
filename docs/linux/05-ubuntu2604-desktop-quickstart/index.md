@@ -222,6 +222,26 @@ porschan@lab10:~/rk3568-sdk$ git -v
 git version 2.53.0
 ```
 
+## 安装 make
+
+安装命令
+
+```shell
+sudo apt install -y make
+```
+
+检查安装
+
+```shell
+porschan@lab10:~/rk3568-sdk/u-boot$ make -v
+GNU Make 4.4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+```
+
 ## 拍摄快照
 
 点击 `拍摄快照`，编辑快照信息，并点击 `拍摄快照`
