@@ -165,6 +165,48 @@ porschan@lab10:~$
 
 ![05-ubuntu2604-desktop-quickstart-10.png](assets/05-ubuntu2604-desktop-quickstart-10.png)
 
+## 修复 `WindTerm 2.7.0` SSH 连接 `Ubuntu 26.04` 出现 `]3008` 显示问题
+
+使用 `WindTerm 2.7.0` SSH 连接 `Ubuntu 26.04` 出现如下
+
+![05-ubuntu2604-desktop-quickstart-12.png](assets/05-ubuntu2604-desktop-quickstart-12.png)
+
+编辑 `~/.bashrc` 文件
+
+```shell
+nano ~/.bashrc
+```
+
+末尾追加
+
+```bashrc
+# 编辑于 20260917
+# 模糊匹配：检测到 WindTerm 或 SSH 连接时，精准拦截 systemd OSC 3008 乱码
+if [[ "$TERM_PROGRAM" == "WindTerm" || -n "$SSH_CLIENT" || -n "$SSH_TTY" || -n "$SSH_CONNECTION" ]]; then
+    # 仅当系统确实加载了 systemd 的 OSC 函数时才重写，避免污染正常环境
+    if declare -f __systemd_osc_context_precmdline >/dev/null; then
+        __systemd_osc_context_precmdline() { :; }
+        __systemd_osc_context_common() { :; }
+        __systemd_osc_context_escape() { :; }
+        PS0=""
+    fi
+fi
+```
+
+编辑完成后，重启设备
+
+```shell
+sudo reboot
+```
+
+显示正常，如下
+
+![05-ubuntu2604-desktop-quickstart-13.png](assets/05-ubuntu2604-desktop-quickstart-13.png)
+
+!!! info "参考链接："
+
+    1. [连接kubuntu2604无法正常显示](https://github.com/kingToolbox/WindTerm/issues/3621){target=blank}
+
 ## 拍摄快照
 
 点击 `拍摄快照`，编辑快照信息，并点击 `拍摄快照`
