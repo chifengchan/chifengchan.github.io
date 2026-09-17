@@ -84,6 +84,7 @@ nav = [
     {"【VMware Workstation】Debian 13 安装 sing-box（Clash配置转换sing-box配置）" = "linux/03-debian13-clash-config-to-sing-box-config/index.md"},
     {"【VMware Workstation】Ubuntu 26.04 桌面版安装" = "linux/04-ubuntu2604-amd64-desktop/index.md"},
     {"Ubuntu 26.04 桌面版一些配置" = "linux/05-ubuntu2604-desktop-quickstart/index.md"},
+    {"Ubuntu 26.04 桌面版开发RK3568 Linux驱动 - U-Boot 编译" = "linux/06-ubuntu2604-rk3568-linux/index.md"},
   ]},
   { "其他" = [
     { "其他 - 首页" = "other/index.md" },
