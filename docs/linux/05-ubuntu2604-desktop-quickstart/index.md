@@ -207,6 +207,21 @@ sudo reboot
 
     1. [连接kubuntu2604无法正常显示](https://github.com/kingToolbox/WindTerm/issues/3621){target=blank}
 
+## 安装 git
+
+安装命令
+
+```shell
+sudo apt install -y git
+```
+
+检查安装
+
+```shell
+porschan@lab10:~/rk3568-sdk$ git -v
+git version 2.53.0
+```
+
 ## 拍摄快照
 
 点击 `拍摄快照`，编辑快照信息，并点击 `拍摄快照`
